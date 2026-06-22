@@ -7,113 +7,63 @@
 <title>Pilar y Pepe</title>
 
 <!-- Google Fonts -->
-https://fonts.googleapis.com/css2?family=Playfair+Display:wght@300;400;600&family=Montserrat:wght@300;400&display=swap
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@300;400;600&family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
 
 <style>
 
-/* RESET */
 * {
-† margin: 0;
-† padding: 0;
-† box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-/* FONDO */
 body {
-† font-family: 'Montserrat', sans-serif;
-† background: repeating-linear-gradient(
-††† 90deg,
-††† #f5f5f5,
-††† #f5f5f5 2px,
-††† #eeeeee 2px,
-††† #eeeeee 6px
-† );
-† text-align: center;
-† color: #2e3a44;
+  font-family: 'Montserrat', sans-serif;
+  background: repeating-linear-gradient(
+    90deg,
+    #f5f5f5,
+    #f5f5f5 2px,
+    #eeeeee 2px,
+    #eeeeee 6px
+  );
+  text-align: center;
+  color: #2e3a44;
 }
 
-/* MENU (3 barras) */
-.menu {
-† position: fixed;
-† top: 25px;
-† right: 25px;
-}
-
-.menu div {
-† width: 25px;
-† height: 2px;
-† background: #333;
-† margin: 5px 0;
-}
-
-/* HERO */
 .hero {
-† margin-top: 100px;
+  margin-top: 100px;
 }
 
 .hero h1 {
-† font-family: 'Playfair Display', serif;
-† font-size: 80px;
-† font-weight: 300;
+  font-family: 'Playfair Display', serif;
+  font-size: 60px;
+  font-weight: 300;
 }
 
-.hero span {
-† color: #7a6a5a;
-}
-
-/* SUBTITULO */
 .subtitle {
-† margin-top: 20px;
-† letter-spacing: 5px;
-† font-size: 12px;
-† text-transform: uppercase;
-† color: #6b7a84;
+  margin-top: 20px;
+  letter-spacing: 3px;
+  font-size: 14px;
 }
 
-/* IMAGEN */
 .image-container {
-† margin: 60px auto;
-† width: 90%;
-† max-width: 500px;
+  margin: 40px auto;
+  max-width: 400px;
 }
 
 .image-container img {
-† width: 100%;
-† border-radius: 6px;
-† box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  width: 100%;
+  border-radius: 6px;
 }
 
-/* INFO */
 .time {
-† font-family: 'Playfair Display', serif;
-† font-size: 60px;
-† margin-top: 20px;
+  font-family: 'Playfair Display', serif;
+  font-size: 50px;
+  margin-top: 20px;
 }
 
 .location {
-† font-size: 18px;
-† margin-top: 10px;
-}
-
-/* ANIMACI”N */
-.hero {
-† animation: fadeIn 1.5s ease;
-}
-
-@keyframes fadeIn {
-† from {opacity:0; transform: translateY(20px);}
-† to {opacity:1; transform: translateY(0);}
-}
-
-/* RESPONSIVE */
-@media (max-width: 768px) {
-† .hero h1 {
-††† font-size: 45px;
-† }
-
-† .time {
-††† font-size: 40px;
-† }
+  margin-top: 10px;
 }
 
 </style>
@@ -121,35 +71,25 @@ body {
 
 <body>
 
-<!-- MENU -->
-<div class="menu">
-† <div></div>
-† <div></div>
-† <div></div>
-</div>
-
-<!-- CONTENIDO -->
 <section class="hero">
-† <h1>Pilar <span>y</span> Pepe</h1>
+  <h1>Pilar y Pepe</h1>
 
-† <div class="subtitle">
-††† S¡BADO ∑ 3 DE OCTUBRE DE 2026 ∑ C”RDOBA
-† </div>
+  <div class="subtitle">
+    S√ÅBADO ¬∑ 3 DE OCTUBRE DE 2026 ¬∑ C√ìRDOBA
+  </div>
 </section>
 
 <div class="image-container">
-† <!-- CAMBIA ESTA IMAGEN -->
-† images/foto.jpg
+  <img src="images/foto.jpg" alt="Imagen boda">
 </div>
 
 <div class="time">
-† 11:45
+  11:45
 </div>
 
 <div class="location">
-† Iglesia de San Pablo
+  Iglesia de San Pablo
 </div>
 
 </body>
 </html>
-
